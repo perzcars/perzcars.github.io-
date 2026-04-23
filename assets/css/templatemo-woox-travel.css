@@ -2182,7 +2182,58 @@ Reservation Page Style
   opacity: 0.8;
 }
 
+/* Contact Form Styling */
+#contact {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
+#contact h2 {
+  font-size: 28px;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+#contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#contact-form input[type="email"]:focus,
+#contact-form textarea:focus {
+  border-color: #22b3c1;
+  outline: none;
+}
+
+#contact-form button {
+  background-color: #22b3c1;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#contact-form button:hover {
+  background-color: #1a8a99;
+}
 
 /* 
 ---------------------------------------------
