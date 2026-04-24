@@ -2378,3 +2378,50 @@ body {
     padding: 0px;
   }
 }
+
+/* Itineraries Section */
+.itineraries-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.itinerary-box {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.itinerary-box h3 {
+  font-size: 24px;
+  color: #22b3c1;
+  margin-bottom: 15px;
+}
+
+.itinerary-box p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.itinerary-box .main-button {
+  background-color: #22b3c1;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.itinerary-box .main-button:hover {
+  background-color: #1a8a99;
+}
+
+.itinerary-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
